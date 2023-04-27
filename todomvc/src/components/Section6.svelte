@@ -119,7 +119,7 @@
 
 
 
-<div style="white-space: nowrap;">
+<!-- <div style="white-space: nowrap;">
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
@@ -153,6 +153,38 @@
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
     <img style="display: inline-block; width: 30%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+</div>
+ -->
+
+
+ <div style="white-space: nowrap;">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+
+</div>
+
+<div style="white-space: nowrap;">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+
+</div>
+
+<div style="white-space: nowrap;">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+  <img style="display: inline-block; width: 15%;" src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg">
+
 </div>
 
 

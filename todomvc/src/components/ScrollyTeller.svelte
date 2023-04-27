@@ -18,6 +18,7 @@
     import Section13 from "./Section13.svelte";
     import Section14 from "./Section14.svelte";
     import Section15 from "./Section15.svelte";
+    import Section16 from "./Section16.svelte";
 
 </script>
 
@@ -45,7 +46,7 @@
   </div>
 
   <div class="foreground" slot="foreground">
-    {#each Array.from({ length: 15}, (_, i) => i + 1) as section}
+    {#each Array.from({ length: 16}, (_, i) => i + 1) as section}
       <section>
         {#if section == 1}
          <Section1 />
@@ -77,6 +78,8 @@
           <Section14 /> 
         {:else if section === 15}
           <Section15 /> 
+        {:else if section === 16}
+          <Section16 /> 
         {:else}
           This is section {section}.
         {/if}

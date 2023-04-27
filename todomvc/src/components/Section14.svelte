@@ -1,5 +1,5 @@
 <script>
-import WordCloud from "./WordCloud.svelte";
+import WordCloud1 from "./WordCloud1.svelte";
 </script>
 
 
@@ -14,5 +14,6 @@ import WordCloud from "./WordCloud.svelte";
 
 
 <div style="text-align: center;">
-      <WordCloud/>
+      <WordCloud1/>
 </div>
+
