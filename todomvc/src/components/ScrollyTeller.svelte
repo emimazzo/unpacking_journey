@@ -8,7 +8,7 @@
     import Section3 from "./Section3.svelte";
     import Section4 from "./Section4.svelte";
     import Section5 from "./Section5.svelte";
-    import Section6 from "./Section6.svelte";
+    import Section6 from "./Section6_new.svelte";
     import Section7 from "./Section7.svelte";
     import Section8 from "./Section8.svelte";
     import Section9 from "./Section9.svelte";
@@ -19,6 +19,7 @@
     import Section14 from "./Section14.svelte";
     import Section15 from "./Section15.svelte";
     import Section16 from "./Section16.svelte";
+  import ChosenStory from "./ChosenStory.svelte";
 
 </script>
 
@@ -59,6 +60,7 @@
         {:else if section === 5}
           <Section5 />
         {:else if section === 6}
+          <ChosenStory />
           <Section6 />
         {:else if section === 7}
           <Section7 />

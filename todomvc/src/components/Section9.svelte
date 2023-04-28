@@ -32,13 +32,10 @@
 <div class="image-container">
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images/el%20salvador.png"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
       alt="Map of El Salvador"
       
-      class="image"
-      data-tooltip="Population: 6.29 million, Number of Migrants leaving in 2020: 1,599,058, Average Yearly Salary in USD 2020: $3,740, GDP: $26.88 billion"
-    />
-    <figcaption>El Salvador</figcaption>
+      class="image" />
     <div class="tooltip">
 IMAGE 1
     </div>
@@ -46,12 +43,10 @@ IMAGE 1
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images/guatemala.png"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
       alt="Map of Guatemala"
       class="image"
-      data-tooltip="Population: 16.86 million, Number of Migrants leaving in 2020: 1,368,431, Average Yearly Salary in USD 2020: $4,490, GDP: $77.63 billion"
     />
-    <figcaption>Guatemala</figcaption>
     <div class="tooltip">
 IMAGE 2
     </div>
@@ -59,17 +54,184 @@ IMAGE 2
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images/hondur.png"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
       alt="Map of Honduras"
       class="image"
-      data-tooltip="Population: 10.12 million, Number of Migrants leaving in 2020: 985,077,  Average Yearly Salary in USD 2020: $2,150 , GDP: $23.3 billion"
     />
-    <figcaption>Honduras</figcaption>
     <div class="tooltip">
 IMAGE 3
     </div>
   </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 4
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 5
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 6
+    </div>
+  </div>
+
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 7
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 8
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 9
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 10
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 11
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 12
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 13
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 14
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 15
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 16
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 17
+    </div>
+  </div>
+
+  <div class="tooltip-container">
+    <img
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      alt="Map of Guatemala"
+      class="image"
+    />
+    <div class="tooltip">
+IMAGE 18
+    </div>
+  </div>
 </div>
+
+
+
 
 <br />
 <br />
@@ -77,20 +239,23 @@ IMAGE 3
 
 
 <style>
-  .image-container {
-    display: flex;
-    justify-content: space-between;
-  }
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
   .image {
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
+    width: 112.5px;
+    height: 112.5px;
   }
 
   .tooltip-container {
     position: relative;
+  flex-basis: calc(16.66% - 10px);
   }
+
+
 
   .tooltip {
     visibility: hidden;

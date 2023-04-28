@@ -1,7 +1,7 @@
 <script>
 	// export let todos_text_all = "";
 	import * as d3 from 'd3';
-	import WordCloud from "svelte-d3-cloud";
+	import WordCloud from "./WordCloud.svelte";
 	import { response1 } from './store.js'
 	// import { response2 } from './store.js'
 
@@ -32,6 +32,7 @@ function freq_dict(todos_text_all) {
 <div >
     {#key words_freq_dict_response1}
             <WordCloud words={words_freq_dict_response1} 
+			id={"wordcloud-1"}
 			font='Nunito'
 			width = "300"/>
     {/key}
