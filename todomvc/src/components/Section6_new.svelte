@@ -1,8 +1,10 @@
 <h1> Stories of Central American Migrants</h1>
 
-<p> Given your choices of country of origin, age range, and gender, you have been matched with 
-    the following migrant story. Now that you have made those selections, you are well on your
-     way to understanding the journey of migrants. Get ready to embark on a virtual migrant
+<p> Now that you have made those selections, you are well on your
+  way to understanding the journey of migrants.
+  Given your choices of country of origin, age range, and gender, you have been matched with 
+    the following migrant story. 
+    Get ready to embark on a virtual migrant
       journey and gain a deeper appreciation for the experiences of those who have had to leave 
       their homes in search of hope and a better life.</p>
 
@@ -11,7 +13,7 @@
 <div class="image-container">
     <img
       id = "image1"
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
       alt = "Silhouette 1"
       class="image1" />
 
@@ -44,7 +46,7 @@
 
     <img
     id = "image5"
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_M_32.jpg"
       alt="Silhouette 5"
       class="image5"
     />

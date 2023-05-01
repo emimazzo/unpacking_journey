@@ -5,8 +5,8 @@
     // $: console.log('section4', $country)
   </script>
   
+  <h1>From Young to Old: The Age Ranges of Those Seeking Opportunities in the USA</h1>
   <section>
-    <h1>From young to old: the age ranges of those seeking US opportunities</h1>
     <p>While most migrants from the three countries analyzed above end up in the United States as their final destination,
          there is a diverse range of age groups among these immigrants. In 2020, the number of immigrants in the US fell 
          into three age ranges. 

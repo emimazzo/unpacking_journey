@@ -27,11 +27,6 @@
 
   let showUSA = false;
   let selectedType = writable([]);
-  // let country_chosen = "Guatemala"; /// CHANGE LATER WHEN I IMPORT THE VARIABLE THEY CHOSE!!
-  // $: if (country){
-  //   console.log('aaaaaa', country);
-  // $: console.log('checking', $country_chosen)
-
   console.log('UPDATED', $country)
   $: world = data.filter(
       (d) =>
@@ -131,7 +126,7 @@
       ? "Click here to see migrants heading anywhere in the world"
       : "Click here to see migrants heading only to the USA"}</button
   >
-  <svg width="500" height="500">
+  <svg width="500" height="300">
     <g transform="translate(250, 120)">
       {#each showUSA ? usa2 : world2 as data, index}
         <path

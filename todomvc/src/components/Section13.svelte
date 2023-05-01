@@ -17,9 +17,9 @@
  
 <script>
   import { response2 } from "./store.js";
-  let response = "";
+  let response_final = "";
   function myFunction7() {
-    response2.set(response);
+    response2.set(response_final);
     document.getElementById("demo").innerHTML = "Thank you for your answer";
     console.log("CURRENT VALUE OF RESPONSE2", $response2);
   }
@@ -31,7 +31,7 @@
   id="userInput"
   type="text"
   placeholder="Please type your response"
-  bind:value={response}
+  bind:value={response_final}
 />
 <button on:click={myFunction7}>Submit</button>
-<p id="demo" />
+<p id="demo"></p>

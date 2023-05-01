@@ -14,12 +14,14 @@
     import Section9 from "./Section9.svelte";
     import Section10 from "./Section10.svelte";
     import Section11 from "./Section11.svelte";
+    import Section11b from "./Section11b.svelte";
     import Section12 from "./Section12.svelte";
     import Section13 from "./Section13.svelte";
     import Section14 from "./Section14.svelte";
     import Section15 from "./Section15.svelte";
     import Section16 from "./Section16.svelte";
   import ChosenStory from "./ChosenStory.svelte";
+  import Section9b from "./Section9b.svelte";
 
 </script>
 
@@ -47,7 +49,7 @@
   </div>
 
   <div class="foreground" slot="foreground">
-    {#each Array.from({ length: 16}, (_, i) => i + 1) as section}
+    {#each Array.from({ length: 18}, (_, i) => i + 1) as section}
       <section>
         {#if section == 1}
          <Section1 />
@@ -69,18 +71,22 @@
         {:else if section === 9}
           <Section9 /> 
         {:else if section === 10}
-          <Section10 /> 
+          <Section9b /> 
         {:else if section === 11}
-          <Section11 /> 
+          <Section10 /> 
         {:else if section === 12}
-          <Section12 /> 
+          <Section11 /> 
         {:else if section === 13}
-          <Section13 /> 
+          <Section11b/> 
         {:else if section === 14}
-          <Section14 /> 
+          <Section12 /> 
         {:else if section === 15}
-          <Section15 /> 
+          <Section13 /> 
         {:else if section === 16}
+          <Section14 /> 
+        {:else if section === 17}
+          <Section15 /> 
+        {:else if section === 18}
           <Section16 /> 
         {:else}
           This is section {section}.
