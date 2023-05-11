@@ -51,7 +51,7 @@
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -70,7 +70,7 @@
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Natividad_Galicia_Guatemala_F_79_color.jpg"
       alt="Map of Honduras"
       class="image"
     />
@@ -80,14 +80,15 @@
       Natividad Galicia and her husband grow corn 
       <br>
       and broccoli on a farm in western Guatemala.
-      <br> They've always been poor and never considered immigrating.
+      <br> They've always been poor and never <br>
+      considered immigrating.
       
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Bacilio_Miguel_Guatemala_M_16_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -129,7 +130,7 @@
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Diego_Saucedo_Guatemala_M_85_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -146,64 +147,56 @@
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alison_Valiente_El Salvador_F_14_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-      Maribel, 14
-      <br>
-      Maribel was 14 when she was raped by members 
-      <br>
-      of the Maras gang and threatened with death if 
-      <br>
-      she told anyone. Despite her mother's attempts 
-      <br>
-      to seek help from the police, they receive no protection
-      <br>
-      from the gang's threats and violence. The family decides 
-      <br> to leave their country and migrate to the
-      <br> United States in search of safety.
+      Alison, Valiente, 20<br>
+      Alison Valiente came to the U.S. and settled in Texas <br>
+      in 2014 after gangs targeted her family. Today, she is a<br>
+       college graduate, and working professional.
+      
       
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Fernanda_Levin_El Salvador_F_27_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-IMAGE 8
+      Fernanda, 27 <br>
+      Fernanda, a 27 year old trans woman, fled<br>
+       violence and persecution in El Salvador. <br>
+       She undertook a perilous journey to seek safety<br>
+        in the United States, where she faced further <br>
+        challenges but ultimately found a supportive community.
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Mercedes_Garcia_El Salvador_F_58_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-      Guadalupe De Los Ángeles, 54 <br>
-      Guadalupe De Los Ángeles was born in San Salvador <br>
-      in 1969 and immigrated to California when she was 19 <br>
-      years old in search of better opportunities. She had a <br>
-      difficult journey and felt scared and alone, but eventually<br>
-       settled in, learned English, got a job, and met her husband.
-       <br>
-        She still holds onto her Salvadoran roots and occasionally
-        <br> cooks food from different cultures, but feels grateful
-        <br> for the decisions she made and the successful life 
-        <br>she has built in the US.
+      Mercedes garcia, 58 (then 25) <br>
+      In the 1990s, Mercedes Garcia (then 25) left El Salvador<br>
+       in with her son and husband to escape the civil war that had <br>
+       been going on for 10 years. Since then, their family
+       <br> has made the US their home. 
+      
       
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Javier_Zamora_El Salvador_M_9_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -224,7 +217,7 @@ IMAGE 8
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Tomas_Gueverra_El Salvador_M_41_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -242,36 +235,40 @@ IMAGE 8
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Carlos_Castro_El Salvador_M_68_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-      Francisco Lopez, 54  <br>
-      Francisco, now 54, left El Salvador at the ripe age of 22, <br>
-       due to the Civil war from 1978 to 1996, leaving his family behind.  <br>
-       He fled to the United States in hopes for a better livelihood.
+      Carlos Castro, 68<br>
+    Carlos Castro at age 25 left El Salvador due to the civil war <br>
+    and built a life in Northern Virginia based on his core values <br>
+    of hard work, integrity, and helping others.
+
       
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Fernanda_Jacqueline Davila_Honduras_F_2_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-      Debora Castillo, 17<br>
-      Debora Castillo lost two children during childbirth.<br>
-       Honduras has an infant mortality rate over three times that of the U.S.
+      Fernanda Jacqueline Davila, 2<br>
+      Fernanda Jacqueline Davila was separated from her grandmother after <br>
+      their arrival in the U.S. from Honduras. She was among more than 100 <br>
+      children separated from their families that were living in shelters <br>
+      and temporary foster care.
+
       
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Jessica_Orellana_Honduras_F_30_bw.jpg"
       alt="Map of Guatemala"
       class="image"
     />
@@ -286,45 +283,65 @@ IMAGE 8
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Margarita_Ramirez_El Salvador_F_72_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-IMAGE 15
+      Margarita Ramirez, 72<br>
+      Threatened by murderous street gangs, Margarita <br>
+      Ramirez fled for Mexico where she is starting over at 72. 
+      
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Oscar_Sanchez_Honduras_M_18_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-IMAGE 16
+      Oscar Sanchez, 18<br>
+      In March, Oscar Sanchez arrived in Texas, homeless <br>
+      and parentless. In April, the Honduran turned 18, the legal <br>
+      adult age, and he was released from a pop-up detention center in <br>
+      Dallas and united with his aunt and grandmother in Indianapolis.
+      
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Wilmer_Gerardo Nunez_Honduras_M_35_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-IMAGE 17
+      Wilmer Gerardo Nunez, 35<br>
+    Wilmer Gerardo Nunez left Honduras for the United States in 2010. <br>
+    He was 35 years old. He left his home because of gang threats, <br>
+    just as thousands of other people have done. His mother has been <br>
+    waiting over eight years for him to come home.
+
     </div>
   </div>
 
   <div class="tooltip-container">
     <img
-      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/female-silhouette.jpg"
+      src="https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Fredi_Juarez_Honduras_M_50_color.jpg"
       alt="Map of Guatemala"
       class="image"
     />
     <div class="tooltip">
-IMAGE 18
+      Fredi Juarez, 51<br>
+      After back-to-back hurricanes destroyed his home in Honduras in 2020,<br>
+       Fredi Juarez and his girlfriend joined the millions of people who fled<br>
+        due to rising seas, drought, searing temperatures and other <br>
+        climate catastrophes. Juarez resides in a tent at a migrant 
+        <br> shelter in the border city of Tijuana, Mexico.
+
+      
     </div>
   </div>
 </div>

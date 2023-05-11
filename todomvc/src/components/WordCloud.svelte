@@ -22,20 +22,36 @@
   };
   // props
   export let words = [];
+  export let words2 = [];
   export let id = "";
   export let width = 800;
   export let height = 500;
   export let font = "Impact";
-  export let maxFontSize = 50;
+  export let maxFontSize = 30;
   export let minRotate = 0;
   export let maxRotate = 0;
   export let scheme = "schemeTableau10";
   export let padding = 10;
   export let backgroundColor = "#fff";
   // count max word occurence
-  const maxWordCount = words.reduce((prev, cur) =>
-    prev.count < cur.count ? prev.count : cur.count
-  );
+  // const maxWordCount = words.reduce((prev, cur) =>
+  //   prev.count < cur.count ? prev.count : cur.count
+  // );
+
+  let maxWordCount;
+  $: console.log("wordswordswords", words);
+  if (words.length === 1) {
+    maxWordCount = 1;
+  } else {
+    maxWordCount = words.reduce((prev, cur) =>
+      prev.count < cur.count ? prev.count : cur.count
+    );
+  }
+  
+  $: console.log("wordswordswords2", words);
+  $: words2 = words;
+
+  // maxWordCount = 10;
   // text color scheme
   const fill = scaleOrdinal(color_scheme[scheme]);
   // events
@@ -43,6 +59,7 @@
   const onWordMouserOver = (d) => dispatch("mouseover", d);
   const onWordMouseOut = (d) => dispatch("mouseout", d);
   const onWordMouseMove = (d) => dispatch("mousemove", d);
+  console.log("wordswordswords3", words2);
   const layout = cloud()
     .size([width, height])
     .words(words)
@@ -51,7 +68,11 @@
     .font(font)
     .fontSize((d) => Math.floor((d.count / maxWordCount) * maxFontSize))
     .on("end", draw);
-  function draw(words) {
+  console.log("layouttttttttttt", layout);
+  function draw() {
+    console.log("words!!!!!!!!!!!", words);
+    console.log("words!!!!!", words2);
+    console.log("layoutttt!!!!!", layout.size());
     select("#" + id)
       .append("svg")
       .attr("width", layout.size()[0])
@@ -62,7 +83,7 @@
         "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")"
       )
       .selectAll("text")
-      .data(words)
+      .data(words2)
       .enter()
       .append("text")
       .style("font-size", (d) => d.size + "px")
@@ -72,12 +93,19 @@
       .attr(
         "transform",
         (d) => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"
+        // (d) => "translate(" + [75, 75] + ")rotate(" + d.rotate + ")"
+        // (d) => "translate(" + [(60 + Math.random() * 5), (60 + Math.random() * 5)] + ")rotate(" + d.rotate + ")"
+        // (d) => "translate(" + [(70 + Math.random() * 20), (70 + Math.random() * 20)] + ")rotate(" + d.rotate + ")"
+        // (d) => "translate(" + [(70 + Math.random() * 50), (70 + Math.random() * 50)] + ")rotate(" + d.rotate + ")"
+
+
       )
       .text((d) => d.text)
       .on("click", onWordClick)
       .on("mouseover", onWordMouserOver)
       .on("mouseout", onWordMouseOut)
-      .on("mousemove", onWordMouseMove);
+      .on("mousemove", onWordMouseMove)
+    console.log("words!!!----------!!", words2);;
   }
   // mount
   onMount(async () => {
@@ -85,7 +113,7 @@
   });
 </script>
 
-<div id={id} style="background-color: {backgroundColor};" />
+<div id="{id}" style="background-color: {backgroundColor};" />
 
 <style>
   div#wordcloud {

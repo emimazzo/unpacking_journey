@@ -126,7 +126,7 @@
       ? "Click here to see migrants heading anywhere in the world"
       : "Click here to see migrants heading only to the USA"}</button
   >
-  <svg width="500" height="300">
+  <svg width="500" height="240">
     <g transform="translate(250, 120)">
       {#each showUSA ? usa2 : world2 as data, index}
         <path

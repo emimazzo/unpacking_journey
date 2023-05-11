@@ -15,11 +15,7 @@
     <div class="row mw-100">
         <div id="donut" class="col-12"></div>
     </div>
-    
-    
 
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="donut.js"></script>
 
 
 </body>
@@ -267,14 +263,11 @@ var Guatamela = [{
 },
 ];
 
-var rect = document.getElementById('donut').getBoundingClientRect();
-var width = rect.width;
+var width = 720;
 var height = 360;
 var radius = Math.min(width, height) / 2;
 var donutWidth = 75;
 var color = d3.scaleOrdinal().range(["#5A39AC", "#DD98D6", "#E7C820", "#08B2B2"]);
-
-
 
 
 var svg = d3.select('#donut')

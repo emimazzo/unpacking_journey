@@ -23,7 +23,6 @@
 
 <div style="text-align: center;">
     <PieChart/>
-
     <p> Select a gender to explore further.</p>
   <button class="age-btn" on:click={() => myFunction3('Female')}>Female</button>
   <button class="age-btn" on:click={() => myFunction3('Male')}>Male</button>

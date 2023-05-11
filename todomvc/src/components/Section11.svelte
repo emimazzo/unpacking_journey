@@ -1,5 +1,5 @@
 <script>
-    import DonutGraph from "./DonutGraph.svelte";
+    import DonutGraph from "./Donut_graph/DonutGraphFinal.svelte";
   </script>
 
 <h1> The Whys Behind the Migration: A Holistic View</h1>
@@ -12,6 +12,7 @@
      of the following donut chart.</p>
 
 
-<div>
-        <DonutGraph />
+<div >
+      <DonutGraph />
 </div>
+<!-- <iframe src="https://domini8888.github.io/donut-chart/" height="550" width="700" title="Iframe Example"></iframe> -->

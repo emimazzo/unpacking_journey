@@ -22,7 +22,6 @@
     import Section16 from "./Section16.svelte";
   import ChosenStory from "./ChosenStory.svelte";
   import Section9b from "./Section9b.svelte";
-  import { country } from './store.js'
   import { loop_guard } from "svelte/internal";
 
   let section_urls = [
@@ -52,7 +51,7 @@
 
 
   let section_urls_salv = [
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
@@ -125,7 +124,7 @@ const sectionHeights = [
     class="background"
     slot="background">
 
-    <!-- <div class="progress-bars">
+    <div class="progress-bars">
       <p>current section: <strong>{index + 1}/{count}</strong></p>
       <progress value={count ? (index + 1) / count : 0} />
 
@@ -133,40 +132,16 @@ const sectionHeights = [
       <progress value={offset || 0} />
 
       <p>total progress</p>
-      <progress value={progress || 0} /> -->
-    <!-- </div> -->
+      <progress value={progress || 0} />
+    </div>
   </div>
   
 
-  <!-- THIS CODE BELOW WORKS!! -->
-
-  <!-- <div class="foreground" slot="foreground">
+  <div class="foreground" slot="foreground">
     <div class="sideground"
     style="background-image: url({section_urls[index]})"
     >
-    </div> -->
-
-    <div class="foreground" slot="foreground">
-
-      {#if $country === 'Guatemala'}
-          <div class="sideground"
-              style="background-image: url({section_urls_guat[index]})" >
-          </div>
-        
-      {:else if $country === 'El Salvador'}
-          <div class="sideground"
-              style="background-image: url({section_urls_salv[index]})" >
-          </div>
-  
-        {:else}
-        <div class="sideground"
-          style="background-image: url({section_urls[index]})" >
-        </div>
-        {/if}
-        >
-
-
-    
+    </div>
     <div>
     {#each Array.from({ length: 17}, (_, i) => i + 1) as section}
       <section style="height: {sectionHeights[section - 1]}">
@@ -343,11 +318,9 @@ const sectionHeights = [
       </section>
     {/each}
     </div>
-
     <div class="sideground"
     style="background-image: url({section_urls2[index]})"
     ></div>
-    
   </div>
   
 </Scroller>
@@ -397,9 +370,7 @@ const sectionHeights = [
       color: black;
       padding: 1em;
       margin: 0 0 2em 0;
-      /* width: fit-content; */
-      /* height: fit-content; */
-
+      
     }
 
     html {

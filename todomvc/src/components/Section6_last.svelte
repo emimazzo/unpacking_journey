@@ -271,95 +271,130 @@
   <script>
     import { chosen_story } from './store.js'
   
+    const images = {
+  1: document.querySelector('.image1'),
+  2: image2,
+  3: image3,
+  4: image4,
+  5: image5,
+  6: image6,
+  7: image7,
+  8: image8,
+  9: image9,
+  10: image10,
+  11: image11,
+  12: image12,
+  13: image13,
+  14: image14,
+  15: image15,
+  16: image16,
+  17: image17,
+  18: image18
+};
 
-  $: if ($chosen_story === 1){
-    console.log('chose', $chosen_story)
-      image1.style.opacity = '1'
-  }
-   else if ($chosen_story ===2){
-    console.log('chose', $chosen_story)
-      image2.style.opacity = '1'
-  }
 
-  else if ($chosen_story ===3){
-    console.log('chose', $chosen_story)
-      image3.style.opacity = '1'
-  }
 
-  else if ($chosen_story ===4){
-    console.log('chose', $chosen_story)
-      image4.style.opacity = '1'
-  }
 
-  else if ($chosen_story ===5){
-    console.log('chose', $chosen_story)
-      image5.style.opacity = '1'
+if ($chosen_story === 1) {
+  console.log('chose', $chosen_story);
+  for (let i = 1; i <= 17; i++) {
+    const imageElements = document.getElementsByClassName(images[i]);
+    if (i === $chosen_story) {
+      for (let j = 0; j < imageElements.length; j++) {
+        imageElements[j].style.opacity = '1';
+        // do something with i here
+      }
+    } else {
+      for (let j = 0; j < imageElements.length; j++) {
+        imageElements[j].style.opacity = '0.5';
+      }
+    }
   }
+}
+  //  else if ($chosen_story ===2){
+  //   console.log('chose', $chosen_story)
+  //     image2.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===6){
-    console.log('chose', $chosen_story)
-      image6.style.opacity = '1'
-  }
+  // else if ($chosen_story ===3){
+  //   console.log('chose', $chosen_story)
+  //     image3.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===7){
-    console.log('chose', $chosen_story)
-      image7.style.opacity = '1'
-  }
+  // else if ($chosen_story ===4){
+  //   console.log('chose', $chosen_story)
+  //     image4.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===8){
-    console.log('chose', $chosen_story)
-      image8.style.opacity = '1'
-  }
+  // else if ($chosen_story ===5){
+  //   console.log('chose', $chosen_story)
+  //     image5.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===9){
-    console.log('chose', $chosen_story)
-      image9.style.opacity = '1'
-  }
+  // else if ($chosen_story ===6){
+  //   console.log('chose', $chosen_story)
+  //     image6.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===10){
-    console.log('chose', $chosen_story)
-      image10.style.opacity = '1'
-  }
+  // else if ($chosen_story ===7){
+  //   console.log('chose', $chosen_story)
+  //     image7.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===11){
-    console.log('chose', $chosen_story)
-      image11.style.opacity = '1'
-  }
+  // else if ($chosen_story ===8){
+  //   console.log('chose', $chosen_story)
+  //     image8.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===12){
-    console.log('chose', $chosen_story)
-      image12.style.opacity = '1'
-  }
+  // else if ($chosen_story ===9){
+  //   console.log('chose', $chosen_story)
+  //     image9.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===13){
-    console.log('chose', $chosen_story)
-      image13.style.opacity = '1'
-  }
+  // else if ($chosen_story ===10){
+  //   console.log('chose', $chosen_story)
+  //     image10.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===14){
-    console.log('chose', $chosen_story)
-      image14.style.opacity = '1'
-  }
+  // else if ($chosen_story ===11){
+  //   console.log('chose', $chosen_story)
+  //     image11.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===15){
-    console.log('chose', $chosen_story)
-      image15.style.opacity = '1'
-  }
+  // else if ($chosen_story ===12){
+  //   console.log('chose', $chosen_story)
+  //     image12.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===16){
-    console.log('chose', $chosen_story)
-      image16.style.opacity = '1'
-  }
+  // else if ($chosen_story ===13){
+  //   console.log('chose', $chosen_story)
+  //     image13.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===17){
-    console.log('chose', $chosen_story)
-      image17.style.opacity = '1'
-  }
+  // else if ($chosen_story ===14){
+  //   console.log('chose', $chosen_story)
+  //     image14.style.opacity = '1'
+  // }
 
-  else if ($chosen_story ===18){
-    console.log('chose', $chosen_story)
-      image18.style.opacity = '1'
-  }
+  // else if ($chosen_story ===15){
+  //   console.log('chose', $chosen_story)
+  //     image15.style.opacity = '1'
+  // }
+
+  // else if ($chosen_story ===16){
+  //   console.log('chose', $chosen_story)
+  //     image16.style.opacity = '1'
+  // }
+
+  // else if ($chosen_story ===17){
+  //   console.log('chose', $chosen_story)
+  //     image17.style.opacity = '1'
+  // }
+
+  // else if ($chosen_story ===18){
+  //   console.log('chose', $chosen_story)
+  //     image18.style.opacity = '1'
+  // }
 
 
 

@@ -15,11 +15,21 @@
  -->
 
  
-<script>
+<!-- <script>
   import { response2 } from "./store.js";
   let response_final = "";
   function myFunction7() {
     response2.set(response_final);
+    document.getElementById("demo").innerHTML = "Thank you for your answer";
+    console.log("CURRENT VALUE OF RESPONSE2", $response2);
+  }
+</script> -->
+
+<script>
+  import { response2 } from "./store.js";
+  let response_final= "";
+  function myFunction10() {
+    response2.set('love ok great awesome woho perfect ok ok  ' + ' ' + response_final);
     document.getElementById("demo").innerHTML = "Thank you for your answer";
     console.log("CURRENT VALUE OF RESPONSE2", $response2);
   }
@@ -33,5 +43,5 @@
   placeholder="Please type your response"
   bind:value={response_final}
 />
-<button on:click={myFunction7}>Submit</button>
+<button on:click={myFunction10}>Submit</button>
 <p id="demo"></p>
