@@ -120,46 +120,40 @@
   <h4> Migrants from {$country} heading anywhere in the world</h4>
 {/if}
 
+<div class="visualization">
+  <button on:click={toggleData} style="{showUSA ? 'background-color: purple; color: white;' : 'background-color: green; color: white;'}"
+    >{showUSA
+      ? "Click here to see migrants heading anywhere in the world"
+      : "Click here to see migrants heading only to the USA"}</button
+  >
+  <svg width="500" height="240">
+    <g transform="translate(250, 120)">
+      {#each showUSA ? usa2 : world2 as data, index}
+        <path
+          d={arcGenerator({
+            startAngle: data.startAngle,
+            endAngle: data.endAngle,
+          })}
+          fill={showUSA && index === 0
+            ? "#FFA500"
+            : !showUSA && index === 0
+            ? "#6495ED"
+            : "grey"}
+          on:mouseover={(event) => {
+            hovered = index;
+            recorded_mouse_position = {
+              x: event.pageX,
+              y: event.pageY,
+            };
+          }}
+          on:mouseout={(event) => {
+            hovered = -1;
+          }}
+        />
+      {/each}
+    </g>
+  </svg>
 
-
-  <div class="container">
-    <div class="visualization">
-      <svg width="500" height="220">
-          <g transform="translate(250, 120)">
-            {#each showUSA ? usa2 : world2 as data, index}
-              <path
-                d={arcGenerator({
-                  startAngle: data.startAngle,
-                  endAngle: data.endAngle,
-                })}
-                fill={showUSA && index === 0
-                  ? "#FFA500"
-                  : !showUSA && index === 0
-                  ? "#6495ED"
-                  : "grey"}
-                on:mouseover={(event) => {
-                  hovered = index;
-                  recorded_mouse_position = {
-                    x: event.pageX,
-                    y: event.pageY,
-                  };
-                }}
-                on:mouseout={(event) => {
-                  hovered = -1;
-                }}
-              />
-            {/each}
-          </g>
-        </svg>
-
-        <div class="button-container">
-          <button on:click={toggleData} style="{showUSA ? 'background-color: purple; color: white;' : 'background-color: green; color: white;'}"
-            >{showUSA
-              ? "Click to see migrants heading anywhere in the world"
-              : "Click to see migrants heading only to the USA"}</button
-          >
-        </div>
-        </div>
   <div
     class={hovered === -1 ? "tooltip-hidden" : "tooltip-visible"}
     style="left: {recorded_mouse_position.x}px; top: {recorded_mouse_position.y}px"
@@ -167,15 +161,15 @@
     {#if hovered !== -1}
       {#if hovered === 0}
         {#if showUSA}
-          <p><b>Number of Females:</b> {female_usa.toLocaleString()}</p>
+          <p>Number of Females: {female_usa.toLocaleString()}</p>
           {:else}
-            <p><b>Number of Females:</b> {female_world.toLocaleString()}</p>
+            <p>Number of Females: {female_world.toLocaleString()}</p>
         {/if}
       {:else}
         {#if showUSA}
-         <p><b>Number of Males: </b>{male_usa.toLocaleString()}</p> 
+         <p>Number of Males: {male_usa.toLocaleString()}</p> 
          {:else}
-          <p><b>Number of Males:</b> {male_world.toLocaleString()}</p> 
+          <p>Number of Males: {male_world.toLocaleString()}</p> 
         {/if}
         {/if}
     {/if}
@@ -191,41 +185,25 @@
     font-weight: 300;
         line-height: 2;
         font-size: 24px;
-        /* margin-top: 2px; */
-        flex: 1;
+        margin-top: 10px;
   }
-  .container {
-  display: flex;
-  flex-direction: row;
-}
-
-.button-container {
-  position: absolute;
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
-  right: 2;
-  margin-top: -140px;
-  width: 200px;
-  white-space: normal;
-
-
-}
 
   /* dynamic classes for the tooltip */
   .tooltip-hidden {
     visibility: hidden;
     font-family: "Nunito", sans-serif;
-    width: 270px;
+    width: 200px;
     position: absolute;
   }
 
   .tooltip-visible {
     font: 16px sans-serif;
-    font-family: New York Times, Georgia, Times New Roman;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: Arial;
     visibility: visible;
     background-color: white;
     border-radius: 10px;
-    width: 270px;
+    width: 200px;
     color: black;
     position: absolute;
     z-index: 1;

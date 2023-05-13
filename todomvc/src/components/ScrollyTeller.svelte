@@ -15,7 +15,7 @@
     import Section10 from "./Section10.svelte";
     import Section11 from "./Section11.svelte";
     import Section11b from "./Section11b.svelte";
-    // import Section12 from "./Section12.svelte";
+    import Section12 from "./Section12.svelte";
     import Section13 from "./Section13.svelte";
     import Section14 from "./Section14.svelte";
     import Section15 from "./Section15.svelte";
@@ -25,21 +25,37 @@
   import { country } from './store.js'
   import { loop_guard } from "svelte/internal";
 
-  let section_urls = [
+
+// REACTIVE IMAGES FOR SIDEGROUND
+  let section_urls_hond = [
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
   ]
 
-  let section_urls2 = [
+  let section_urls2_hond = [
       "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
   ]
 
 
   let section_urls_guat = [
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/background/try2.jpeg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Alvina_Jeronimo_Perez_Guatemala_F_42_color.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_79.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
@@ -90,24 +106,27 @@
 
 
 const sectionHeights = [
-  '85vh', // Section 1
-  '85vh', // Section 2
-  '85vh', // Section 3,
-  '85vh', // Section 4
-  '85vh', // Section 5
-  '85vh', // Section 6,
-  '85vh', // Section 7
-  '85vh', // Section 8
-  '85vh', // Section 9,
-  '85vh', // Section 10
-  '100vh', // Section 11
-  '85vh', // Section 12
-  '85vh', // Section 13
-  '85vh', // Section 14
-  '85vh', // Section 15
-  '85vh', // Section 16
-  '85vh', // Section 17
+  '95vh', // Section 1
+  '95vh', // Section 2
+  '95vh', // Section 3,
+  '95vh', // Section 4
+  '95vh', // Section 5
+  '95vh', // Section 6,
+  '95vh', // Section 7
+  '95vh', // Section 8
+  '95vh', // Section 9,
+  '95vh', // Section 10
+  '95vh', // Section 11
+  '95vh', // Section 12
+  '95vh', // Section 13
+  '95vh', // Section 14
+  '95vh', // Section 15
+  '95vh', // Section 16
+  '95vh', // Section 17,
+  '95vh' // Section 18
 ];
+
+const sectionWidths = []
 
 
 </script>
@@ -150,27 +169,32 @@ const sectionHeights = [
 
       {#if $country === 'Guatemala'}
           <div class="sideground"
-              style="background-image: url({section_urls_guat[index]})" >
+              style="background-image: url({section_urls_guat[index]}); background-size: contain" >
           </div>
         
       {:else if $country === 'El Salvador'}
           <div class="sideground"
-              style="background-image: url({section_urls_salv[index]})" >
+              style="background-image: url({section_urls_salv[index]}); background-size: contain" >
           </div>
   
-        {:else}
+
+      {:else if $country === 'Honduras'}
+          <div class="sideground"
+        style="background-image: url({section_urls_hond[index]}); background-size: contain" >
+          </div>
+        <!-- {:else}
         <div class="sideground"
           style="background-image: url({section_urls[index]})" >
-        </div>
+        </div> -->
         {/if}
         >
 
 
     
     <div>
-    {#each Array.from({ length: 17}, (_, i) => i + 1) as section}
-      <section style="height: {sectionHeights[section - 1]}">
-        {#if section == 1}
+    {#each Array.from({ length: 18}, (_, i) => i + 1) as section}
+    <section style="height: {sectionHeights[section - 1]}; font-family: 'New York Times', Georgia, 'Times New Roman'" >
+      {#if section == 1}
         <Section1/>
         <br>
         <div style="text-align: center;">
@@ -181,10 +205,9 @@ const sectionHeights = [
         </html>
       </div>
         {:else if section === 2}
-        <div style="justify-content: center; align-items: center">
           <Section2 id='section2' />
           <br>
-          <!-- <div style="text-align: center;"> -->
+          <div style="text-align: center;">
           <html>
             <a href="#down2">Click here to select a country of origin!</a>
             <div id="down2">
@@ -192,7 +215,7 @@ const sectionHeights = [
           </html>
           </div>
         {:else if section === 3}
-          <Section3 />          
+          <Section3 style="display: flex; align-items: center;" />          
           <br>
           <div style="text-align: center;">
           <html>
@@ -302,9 +325,9 @@ const sectionHeights = [
             </div>
           </html>
         </div>
-        <!-- {:else if section === 14}
-          <Section12 />  -->
         {:else if section === 14}
+          <Section12 /> 
+        {:else if section === 15}
           <Section13 /> 
           <br>
           <div style="text-align: center;">
@@ -314,7 +337,7 @@ const sectionHeights = [
             </div>
           </html>
         </div>
-        {:else if section === 15}
+        {:else if section === 16}
           <Section14 /> 
           <br>
           <div style="text-align: center;">
@@ -324,7 +347,7 @@ const sectionHeights = [
             </div>
           </html>
         </div>
-        {:else if section === 16}
+        {:else if section === 17}
         
           <Section15 /> 
           <br>
@@ -335,7 +358,7 @@ const sectionHeights = [
             </div>
           </html>
         </div>
-        {:else if section === 17}
+        {:else if section === 18}
           <Section16 /> 
         {:else}
           This is section {section}.
@@ -344,9 +367,31 @@ const sectionHeights = [
     {/each}
     </div>
 
-    <div class="sideground"
-    style="background-image: url({section_urls2[index]})"
-    ></div>
+    <!-- <div class="sideground"
+    style="background-image: url({section_urls2_hond[index]})"
+    ></div> -->
+
+      {#if $country === 'Guatemala'}
+          <div class="sideground"
+              style="background-image: url({section_urls2_guat[index]})" >
+          </div>
+        
+      {:else if $country === 'El Salvador'}
+          <div class="sideground"
+              style="background-image: url({section_urls2_salv[index]})" >
+          </div>
+  
+
+      {:else if $country === 'Honduras'}
+          <div class="sideground"
+              style="background-image: url({section_urls2_hond[index]})" >
+          </div>
+        <!-- {:else}
+        <div class="sideground"
+          style="background-image: url({section_urls[index]})" >
+        </div> -->
+        {/if}
+        >
     
   </div>
   
@@ -393,10 +438,12 @@ const sectionHeights = [
       /* color: white; */
       outline: magenta solid 3px;
       text-align: left;
-      max-width: 800px; /* adjust at will */
+      max-width: 1200px; /* adjust at will */
       color: black;
       padding: 1em;
       margin: 0 0 2em 0;
+      /* align-items: center; */
+      /* justify-content: center; */
       /* width: fit-content; */
       /* height: fit-content; */
 

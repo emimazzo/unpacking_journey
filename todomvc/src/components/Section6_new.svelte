@@ -1,5 +1,8 @@
+<div class="title" >
 <h1> Stories of Central American Migrants</h1>
+</div>
 
+<div class="container" >
 <p> Now that you have made those selections, you are well on your
   way to understanding the journey of migrants.
   Given your choices of country of origin, age range, and gender, you have been matched with 
@@ -7,6 +10,7 @@
     Get ready to embark on a virtual migrant
       journey and gain a deeper appreciation for the experiences of those who have had to leave 
       their homes in search of hope and a better life.</p>
+    </div>
 
 
 
@@ -262,6 +266,25 @@
   }
 
   
+  p{
+  max-width:500px;
+  word-wrap:break-word;
+  line-height: 1.56;
+  font-family: New York Times, Georgia, Times New Roman;
+  font-size: 16px;
+}
+
+.container {
+   margin: 0 auto;
+  max-width: 500px;
+  text-align: left;
+  }
+
+.title {
+   /* display: flex; */
+   text-align: center;
+   font-family: New York Times, Georgia, Times New Roman;
+}
 </style>
 
 
@@ -270,97 +293,404 @@
 
   <script>
     import { chosen_story } from './store.js'
-  
 
   $: if ($chosen_story === 1){
     console.log('chose', $chosen_story)
-      image1.style.opacity = '1'
+    image1.style.opacity = '1',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
+
    else if ($chosen_story ===2){
     console.log('chose', $chosen_story)
-      image2.style.opacity = '1'
+      image1.style.opacity = '0.3',
+      image2.style.opacity = '1',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===3){
     console.log('chose', $chosen_story)
-      image3.style.opacity = '1'
+      image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '1',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===4){
     console.log('chose', $chosen_story)
-      image4.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '1',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===5){
     console.log('chose', $chosen_story)
-      image5.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '1',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===6){
     console.log('chose', $chosen_story)
-      image6.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '1',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===7){
     console.log('chose', $chosen_story)
-      image7.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '1',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===8){
     console.log('chose', $chosen_story)
-      image8.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '1',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===9){
     console.log('chose', $chosen_story)
-      image9.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '1',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===10){
     console.log('chose', $chosen_story)
-      image10.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '1',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===11){
     console.log('chose', $chosen_story)
-      image11.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '1',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===12){
     console.log('chose', $chosen_story)
-      image12.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '1',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===13){
     console.log('chose', $chosen_story)
-      image13.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '1',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===14){
     console.log('chose', $chosen_story)
-      image14.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '1',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===15){
     console.log('chose', $chosen_story)
-      image15.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '1',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===16){
     console.log('chose', $chosen_story)
-      image16.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '1',
+      image17.style.opacity = '0.3',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===17){
     console.log('chose', $chosen_story)
-      image17.style.opacity = '1'
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '1',
+      image18.style.opacity = '0.3'
   }
 
   else if ($chosen_story ===18){
     console.log('chose', $chosen_story)
+    image1.style.opacity = '0.3',
+      image2.style.opacity = '0.3',
+      image3.style.opacity = '0.3',
+      image4.style.opacity = '0.3',
+      image5.style.opacity = '0.3',
+      image6.style.opacity = '0.3',
+      image7.style.opacity = '0.3',
+      image8.style.opacity = '0.3',
+      image9.style.opacity = '0.3',
+      image10.style.opacity = '0.3',
+      image11.style.opacity = '0.3',
+      image12.style.opacity = '0.3',
+      image13.style.opacity = '0.3',
+      image14.style.opacity = '0.3',
+      image15.style.opacity = '0.3',
+      image16.style.opacity = '0.3',
+      image17.style.opacity = '0.3',
       image18.style.opacity = '1'
   }
 
 
 
   </script>
+

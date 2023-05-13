@@ -105,6 +105,7 @@
     bottom: 0;
     width: 100px;
     transition: opacity 0.2s ease-in-out;
+    height: 80%;
 }
 
 .bar:hover {
@@ -131,7 +132,7 @@
 .bar-container {
     position: relative;
     display: flex;
-    height: 250px; /* Set the height of the container to the maximum height */
+    height: 220px; /* Set the height of the container to the maximum height */
     width: 350px;
 }
 .x-labels {
@@ -157,16 +158,17 @@
 }
 	
 .tooltip {
+  font-family: New York Times, Georgia, Times New Roman;
+  padding: 10px 20px;
   position: absolute;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  pointer-events: none;
   visibility: hidden;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-  font-size: 12px;
-  white-space: nowrap;
   z-index: 1;
+  border-radius: 10px;
+                    
 }
 
   .bar:hover .tooltip {

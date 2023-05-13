@@ -23,7 +23,7 @@
   }
 
   mapboxgl.accessToken = "pk.eyJ1IjoiZW1henpvbGUiLCJhIjoiY2xnamw3enR6MHM2MDNxbnYyZHZkcmhxMCJ9.2uJ-nc00Htgmgr9sbDtfTQ";
-  let tooltip;
+  let tooltip10;
   let country_selected = "something";
 
   onMount(() => {
@@ -32,7 +32,8 @@
 		style: "mapbox://styles/mapbox/light-v11", 
     center: [-89., 14.6222328],
 		zoom: 4, // starting zoom level
-    dragPan: false
+    dragPan: false,
+    scrollZoom: false 
     
 	});
 
@@ -101,7 +102,13 @@
             map.on("mouseout", function() {
                 map.getCanvas().style.cursor = 'auto';
                 map.setFilter("cfh", ["==", "name", ""]);
-            });
+
+                tooltip10.transition()
+              .duration(500)
+              .style('opacity', 0)
+              .style('border', 'none');
+      });
+           
             
             map.on("click", function(e) {
                 var features = map.queryRenderedFeatures(e.point, { layers: ["cf"] });
@@ -110,7 +117,7 @@
                 }
             });
 
-            map.on("mouseenter", "cf", function(e) {
+            map.on("mousemove", "cf", function(e) {
                 // Get the feature that the mouse is over
                 var feature = e.features[0];
                 var current_country = feature._vectorTileFeature.properties.sovereignt
@@ -122,27 +129,13 @@
                 country_selected = "El Savaldor";
                 country_selected =current_country
                 
-                
-                // Create a tooltip element with the name of the country
-                // var tooltip = document.createElement("div");
-                // tooltip.className = "tooltip"; 
-                // tooltip.innerHTML = 'lala';
-                
-                // Set the position of the tooltip to be above and centered on the mouse
-                // tooltip.style.top = e.originalEvent.clientY - 10 + "px";
-                // tooltip.style.left = e.originalEvent.clientX + "px";
-                
-                // Add the tooltip element to the map container
-                // map.getCanvasContainer().appendChild(tooltip);
+
 });
 
             map.on("mouseleave", "cf", function() {
-                // Remove all tooltips from the map container
-                // var tooltips = document.getElementsByClassName("tooltip");
-                // for (var i = 0; i < tooltips.length; i++) {
-                //     tooltips[i].remove();
-                // }
-                tooltip = null;
+
+                tooltip10 = null;
+                country_selected =null
             });
             
         });
@@ -161,53 +154,59 @@
     href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css"/>
 </svelte:head>
 
+<div class="title" >
 <h1>Step into the Shoes of the Migrant's Home Country</h1>
+</div>
 
+<div class="container" >
 <p>
   El Salvador, Honduras, and Guatemala are three of the countries that see most
   migrants flee. All three countries, which are often referred as the Northern
   Triangle, are some of the poorest in the Western Hemisphere, with high rates
   of violence and conflict driving emigration.
-  <br /> Hover over the images to learn more about each of the three countries and,
+  <br>Hover over the countries in the map to learn more about each of the three countries and,
   when you are ready, choose one of them as the country of origin for the story.
 </p>
+</div>
 
 <div style="display: flex; justify-content: center;">
   <div class="map" bind:this={container} style="text-align: center;"/>
 </div>
 
-<!-- <div class="tooltip" bind:this={tooltip}>
+<!-- <div class="tooltip10" bind:this={tooltip10}>
   <div>
     {country_selected}
   </div>
 </div> -->
 
-<div class="tooltip" bind:this={tooltip}>
+<div class="tooltip10" bind:this={tooltip10}>
+  {#if country_selected === null}
+    {/if}
   {#if country_selected === "Guatemala"}
     <div>
-      {country_selected} <br>
-      Population in 2020: 16.86 million <br />
-      Number of Migrants leaving in 2020: 1,368,431 <br />
-      Average Yearly Salary in USD: $4,490 <br />
-      GDP: $77.63 billion
+     <b> <span style="color: blue;">{country_selected} </span></b> <br>
+     <b>Population in 2020:</b> 16.86 million <br />
+     <b>Number of Migrants leaving in 2020: </b>1,368,431 <br />
+      <b>Average Yearly Salary in USD: </b>$4,490 <br />
+      <b>GDP: </b>$77.63 billion
     </div>
     {/if}
   {#if country_selected === "Honduras"}
     <div>
-      {country_selected} <br>
-      Population in 2020: 10.12 million <br />
-      Number of Migrants leaving in 2020: 985,077 <br />
-      Average Yearly Salary in USD: $2,150 <br />
-      GDP: $23.3 billion
+      <b><span style="color: blue;">{country_selected} </span></b><br>
+      <b>Population in 2020:</b> 10.12 million <br />
+      <b>Number of Migrants leaving in 2020:</b> 985,077 <br />
+      <b>Average Yearly Salary in USD: </b>$2,150 <br />
+      <b>GDP: </b>$23.3 billion
     </div>
     {/if}
     {#if country_selected === "El Salvador"}
     <div>
-      {country_selected} <br>
-      Population in 2020: 6.29 million <br />
-      Number of Migrants leaving in 2020: 1,599,058 <br />
-      Average Yearly Salary in USD: $3,740 <br />
-      GDP: $26.88 billion
+      <b><span style="color: blue;">{country_selected} </span></b><br>
+      <b>Population in 2020:</b> 6.29 million <br />
+      <b>Number of Migrants leaving in 2020: </b>1,599,058 <br />
+      <b>Average Yearly Salary in USD: </b>$3,740 <br />
+      <b>GDP: </b>$26.88 billion
     </div>
 
   {/if}
@@ -217,6 +216,7 @@
 <br />
 <br />
 
+<div class="button-container" >
 <button class="country-btn" on:click={() => myFunction4("El Salvador")}
   >El Salvador</button
 >
@@ -226,6 +226,7 @@
 <button class="country-btn" on:click={() => myFunction4("Honduras")}
   >Honduras</button
 >
+</div>
 
  <!-- ADDING THANK YOU TEXT IN HTML (PART 2; THERE IS A PART 1 ABOVE) -->
 <div id = 'Thank_you' >
@@ -239,7 +240,7 @@
     visibility: visible;
   }
 
-  .tooltip {
+  .tooltip10 {
     
     background-color: pink;
 
@@ -254,6 +255,76 @@
     cursor: pointer;
     margin-right: 10px;
   }
+
+  .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* .tooltip10 {
+    font: 16px sans-serif;
+    /* font-family: "Nunito", sans-serif; */
+    /* visibility: visible; 
+    background-color: black;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    position: center;
+    padding: 10px;
+    z-index: 1
+  } */
+
+  .tooltip10 {
+    font-family: New York Times, Georgia, Times New Roman;
+  background: white;
+  pointer-events: none;
+  z-index: 1;
+  color: black;
+  left: 50%;
+  transform: translateX(60%);
+  width: 380px;
+}
+
+.tooltip10:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 10px);
+  /* border: 10px solid transparent; */
+  /* border-bottom: 10px solid transparent; */
+  z-index: -1;
+  box-shadow: transparent;
+  background-color: transparent;
+  color: transparent;
+  visibility: hidden;
+  padding: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  border: none;
+  border-radius: 10px;
+}
+  p{
+      max-width:500px;
+      word-wrap:break-word;
+      line-height: 1.56;
+      font-family: New York Times, Georgia, Times New Roman;
+      font-size: 16px;
+  }
+  
+  .container {
+       margin: 0 auto;
+      max-width: 500px;
+      text-align: left;
+      }
+  
+  .title {
+       /* display: flex; */
+       text-align: center;
+       font-family: New York Times, Georgia, Times New Roman;
+   }
+
+
+
 </style>
 
 <!-- <style>
@@ -268,7 +339,7 @@
     margin-right: 10px;
   }
 
-  .tooltip-container {
+  .tooltip10-container {
     position: relative;
   }
 
@@ -278,11 +349,11 @@
     opacity: 0.5;
   }
 
-  .tooltip-container:hover .tooltip {
+  .tooltip10-container:hover .tooltip10 {
     visibility: visible;
   }
 
-  .tooltip-container:hover .image {
+  .tooltip10-container:hover .image {
     opacity: 1;
   }
 

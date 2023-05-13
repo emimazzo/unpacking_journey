@@ -9,7 +9,7 @@
   
   <style>
       .tooltip2 {
-                  font-family: Arial;
+        font-family: New York Times, Georgia, Times New Roman;
           position: absolute;
           padding: 10px 20px;
           background: white;
@@ -17,6 +17,8 @@
           pointer-events: none;
           z-index: 1;
           color: black;
+          border-radius: 10px;
+          width: 200px;
       }
   
       svg {
@@ -26,7 +28,7 @@
           .legend {
           position: absolute;
           bottom: 20px;
-          left: 70%;
+          left: -40%;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -34,6 +36,7 @@
           font-size: 16px;
                   width: 300px;
                   height:50px;
+                  font-family: New York Times, Georgia, Times New Roman;
       } 
       
       
@@ -53,12 +56,12 @@
               };
           });
   
-          const width = 500;
-          const height = 500;
+          const width = 450;
+          const height = 450;
   
           const pack = d3.pack()
               .size([width, height])
-              .padding(3);
+            //   .padding(1);
   
           const root = d3.hierarchy({ children: data })
               .sum(d => d.migrants_2020);
@@ -160,7 +163,7 @@
               .duration(200)
               .style('opacity', .9);
           tooltip2.html(`<b><i>Country:</b></i> ${d.data.country_origin}<br><b><i>Number of migrants leaving:</b></i> ${d.data.migrants_2020.toLocaleString()}`)
-              .style('left', '70%')
+              .style('left', '90%')
               .style('bottom', `20px`)
               .style('position', 'absolute');
       })

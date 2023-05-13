@@ -302,7 +302,7 @@
 
 
 <style>
-.image-container {
+/* .image-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -311,8 +311,25 @@
   .image {
     width: 112.5px;
     height: 112.5px;
-  }
+  } */
 
+  .image-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%; /* Set the width of the container to 100% */
+  height: auto; 
+}
+
+  .image {
+    width: 112.5px;
+    height: 112.5px;
+    margin-bottom: 15px; 
+  }
 
   img {
     opacity: 0.3; /* set the opacity to a low value for all images */

@@ -145,14 +145,16 @@
 
 
 	.tooltip-visible {
-		font: 25px sans-serif;
-		font-family: "Nunito", sans-serif;
-		visibility: visible;
-		background-color: #f0dba8;
-		border-radius: 10px;
-		width: 200px;
-		color: black;
-		position: absolute;
-		padding: 10px;
+		font-family: New York Times, Georgia, Times New Roman;
+          position: absolute;
+          padding: 10px 20px;
+          background: white;
+          border: 1px solid black;
+          pointer-events: none;
+          z-index: 1;
+          color: black;
+          border-radius: 10px;
+          width: 200px;
+		  visibility: visible;
 	}
 </style>

@@ -37,6 +37,9 @@
 	  font-size: 0.800rem;
 	  fill: var(--gray-80, #333);
 	  margin: 0;
+	  font-family: New York Times, Georgia, Times New Roman;
+
+
 	}
   
 	ul {

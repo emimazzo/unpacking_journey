@@ -18,8 +18,11 @@
   }
 </script>
 
+<div class="title" >
 <h1>Voices Unheard: The Plurality of Stories That Remain to Be Told</h1>
+</div>
 
+<div class="container" >
 <p>
   Even though you just learned about a particular story that matched your original choices,
    many more stories still remain to be told. 
@@ -28,6 +31,7 @@
   Each of these stories has its own unique perspective, challenges, and triumphs, offering 
   an insightful view of the migrant experience.
 </p>
+</div>
 
 <div class="image-container">
   <div class="tooltip-container">
@@ -37,14 +41,12 @@
       
       class="image" />
     <div class="tooltip">
-      Melissa Sical, 10
+      <b>Melissa Sical, 10  </b>
       <br>
-      Melissa and her father traveled to the U.S. 
+      Melissa and her father traveled to the US border, where
       <br>
-       border during the summer of 2019, where they 
-       <br>were subjected to the Migrant Protection Protocols
-       <br> and required to wait in Juárez two months 
-       <br>for a U.S. court hearing.
+      they were subjected to the Migrant Protection Protocols <br> 
+        and required to wait <b> two months  </b> for a U.S. court hearing.
       
     </div>
   </div>
@@ -56,14 +58,14 @@
       class="image"
     />
     <div class="tooltip">
-      Alvina Jerónimo Pérez, 42
+     <b> Alvina Jerónimo Pérez, 42 </b>
       <br>
-      Alvina Jerónimo Pérez and her husband shell 
+      Alvina and her husband shell homegrown beans
       <br>
-      homegrown beans at their home in Tizamarte, Guatemala. 
-      <br>Jerónimo made a failed attempt to migrate 
-      <br>last year to the U.S. in part to pay off a
-      <br> loan on their single-story, concrete-block house.
+      in Guatemala. Jerónimo made a failed attempt
+      <br> 
+       to migrate to the U.S. <b>to pay off a loan on their house.</b> 
+      <br> 
       
     </div>
   </div>
@@ -75,13 +77,12 @@
       class="image"
     />
     <div class="tooltip">
-      Natividad Galicia, 79
+     <b>Natividad Galicia, 79 </b>
       <br>
-      Natividad Galicia and her husband grow corn 
+      Natividad and her husband grew corn and broccoli 
       <br>
-      and broccoli on a farm in western Guatemala.
-      <br> They've always been poor and never <br>
-      considered immigrating.
+      on a farm in Guatemala. They had always been poor <br>
+      but <b>never considered immigrating.</b>
       
     </div>
   </div>
@@ -93,19 +94,14 @@
       class="image"
     />
     <div class="tooltip">
-      Bacilio Miguel, 16
+      <b>Bacilio Miguel, 16 </b>
       <br>
-      Bacilio Miguel immigrated to the U.S. from 
+      Bacilio immigrated to the U.S. from Guatemala
       <br>
-      Guatemala with his family in 2016. In July 2019, 
+       with his family in 2016. In July 2019, his family's
       <br>
-      his family's application for U.S. residency was 
-      <br>
-      rejected and they are currently appealing their case. 
-      <br>
-      Miguel hopes to attend college in Oregon, where he 
-      <br>
-      and his family currently live.
+      <b> application for U.S. residency was rejected. </b>
+
       
     </div>
   </div>
@@ -117,13 +113,13 @@
       class="image"
     />
     <div class="tooltip">
-      Oscar Lopez, 32
+     <b> Oscar Lopez, 32 </b>
       <br>
-
-      Guatemalan farmer Oscar Lopez stands next 
-      <br>to his corn crop. Stunted by drought, the corn
-      <br> should be as high as Lopez. If he loses his
-      <br>crop, he will lose his income.
+      Oscar is a Guatemalan farmer. The country has 
+      <br>
+      been suffering from <b>drought</b> and he is at risk 
+      <br>
+      of <b>losing everything if he loses his crop.</b>
       
     </div>
   </div>
@@ -135,11 +131,11 @@
       class="image"
     />
     <div class="tooltip">
-      Diego Saucedo, 85
+      <b>Diego Saucedo, 85</b>
       <br>
-      Diego Saucedo and his wife grow corn and broccoli 
-      <br>on a farm in western Guatemala. They've always <br>
-      been poor and never considered immigrating.
+      Diego and his wife grew vegetables
+      <br>on a farm in Guatemala. They had always <br>
+      been poor and <b>never considered immigrating.</b>
       
     </div>
   </div>
@@ -152,10 +148,10 @@
       class="image"
     />
     <div class="tooltip">
-      Alison, Valiente, 20<br>
-      Alison Valiente came to the U.S. and settled in Texas <br>
-      in 2014 after gangs targeted her family. Today, she is a<br>
-       college graduate, and working professional.
+      <b>Alison, Valiente, 20 </b><br>
+      Alison came to the U.S. as a child 
+      <br> and settled in 2014 after <br>
+       <b>gangs targeted her family. </b>
       
       
     </div>
@@ -168,12 +164,11 @@
       class="image"
     />
     <div class="tooltip">
-      Fernanda, 27 <br>
-      Fernanda, a 27 year old trans woman, fled<br>
-       violence and persecution in El Salvador. <br>
-       She undertook a perilous journey to seek safety<br>
-        in the United States, where she faced further <br>
-        challenges but ultimately found a supportive community.
+      <b>Fernanda, 27 </b> <br>
+      Fernanda <b>fled violence and persecution </b> in  <br>
+      El Salvador. She undertook a perilous  <br>
+       journey to seek safety in the US.<br>
+        
     </div>
   </div>
 
@@ -184,11 +179,10 @@
       class="image"
     />
     <div class="tooltip">
-      Mercedes garcia, 58 (then 25) <br>
-      In the 1990s, Mercedes Garcia (then 25) left El Salvador<br>
-       in with her son and husband to escape the civil war that had <br>
-       been going on for 10 years. Since then, their family
-       <br> has made the US their home. 
+      <b>Mercedes garcia, 58 (then 25)</b>  <br>
+      Mercedes left El Salvador in the 1990s with<br>
+        her son and husband to <b>escape the civil  <br>
+       war </b> that had been going on for 10 years.
       
       
     </div>
@@ -201,16 +195,12 @@
       class="image"
     />
     <div class="tooltip">
-      Javier Zamora, 29 (Immigrated at age 9)<br>
+      <b>Javier Zamora, 29 (then 9) </b><br>
       Javier left at the age of 9 with his grandparents 
       <br>
-      to reunite with his parents in the United States. 
+      to <b>reunite with his parents in the US </b>. Life in
       <br>
-      He remembers his life back in El Salvador running 
-      <br>
-      through cornfields and compares it to his present,
-      <br> where life in the United States is not as luxurious 
-      <br>as he first thought it was.
+       the US, however, is not challenge-free.
       
     </div>
   </div>
@@ -222,13 +212,11 @@
       class="image"
     />
     <div class="tooltip">
-      Tomas Gueverra, 41
+      <b>Tomas Gueverra, 41 (then 18)</b>
       <br>
-      Tomas Gueverra left El Salvador in 1999, at age 18, <br>
-      thinking there were few opportunities for him at home. <br>
-      His country had been a casualty the year before of Hurricane Mitch, <br>
-      which decimated Central America, leaving more than 10,000 dead, and he<br>
-       currently faces risks of deportation. 
+      Tomas left El Salvador in 1999, a year after  <br>
+      <b>Hurricane Mitch </b>, which killed thousands of people.<br>
+      Now, he faces risks of deportation. 
       
     </div>
   </div>
@@ -240,10 +228,10 @@
       class="image"
     />
     <div class="tooltip">
-      Carlos Castro, 68<br>
-    Carlos Castro at age 25 left El Salvador due to the civil war <br>
-    and built a life in Northern Virginia based on his core values <br>
-    of hard work, integrity, and helping others.
+    <b>Carlos Castro, 68 (then 25) </b><br>
+    Carlos left El Salvador when he was 25  <br>
+    yearsold due to the <b>civil war </b>and found 
+    <br> a new home in Virginia, US.
 
       
     </div>
@@ -256,11 +244,10 @@
       class="image"
     />
     <div class="tooltip">
-      Fernanda Jacqueline Davila, 2<br>
-      Fernanda Jacqueline Davila was separated from her grandmother after <br>
-      their arrival in the U.S. from Honduras. She was among more than 100 <br>
-      children separated from their families that were living in shelters <br>
-      and temporary foster care.
+     <b>Fernanda Jacqueline Davila, 2 </b> <br>
+      Fernanda was separated from her grandmother <br>
+      after their arrival in the U.S. from Honduras. <br>
+      She lived in <b>shelters and temporary foster care.</b>
 
       
     </div>
@@ -273,10 +260,10 @@
       class="image"
     />
     <div class="tooltip">
-      Jessica Orellana, 30 <br>
-      Jessica Orellana and her sons traveled for over four<br>
-       months since fleeing Honduras in the first migrant caravan of 2021. <br>
-       Their house was destroyed by the hurricanes Eta and Iota.
+      <b> Jessica Orellana, 30 <br> </b>
+      Jessica and her sons left Honduras after their house <br>
+      was <b>destroyed by the hurricanes Eta and Iota.</b> They travelled <br>
+      for over four months in the first migrant caravan of 2021.
       
     </div>
   </div>
@@ -288,9 +275,9 @@
       class="image"
     />
     <div class="tooltip">
-      Margarita Ramirez, 72<br>
-      Threatened by murderous street gangs, Margarita <br>
-      Ramirez fled for Mexico where she is starting over at 72. 
+     <b> Margarita Ramirez, 72 </b> <br>
+     Margarita fled for Mexico at 72 years old because<br>
+      she was <b> threatened by murderous street gangs.</b>
       
     </div>
   </div>
@@ -302,11 +289,14 @@
       class="image"
     />
     <div class="tooltip">
-      Oscar Sanchez, 18<br>
-      In March, Oscar Sanchez arrived in Texas, homeless <br>
-      and parentless. In April, the Honduran turned 18, the legal <br>
-      adult age, and he was released from a pop-up detention center in <br>
-      Dallas and united with his aunt and grandmother in Indianapolis.
+      <b>Oscar Sanchez, 18 (then 17)<br></b>
+      Oscar arrived in Texas and spent a month in a 
+      <br>
+      <b>pop-up detention center </b>until he turned 18 and  
+      <br>
+      reunited with his aunt and grandmother. 
+      
+
       
     </div>
   </div>
@@ -318,11 +308,10 @@
       class="image"
     />
     <div class="tooltip">
-      Wilmer Gerardo Nunez, 35<br>
-    Wilmer Gerardo Nunez left Honduras for the United States in 2010. <br>
-    He was 35 years old. He left his home because of gang threats, <br>
-    just as thousands of other people have done. His mother has been <br>
-    waiting over eight years for him to come home.
+    <b>Wilmer Gerardo Nunez, 35<br></b>
+    Wilmer left Honduras in 2010 due to <b>gang  <br>
+    threats.</b> His mother has been waiting over 
+    <br> eight years for him to come home.
 
     </div>
   </div>
@@ -334,12 +323,11 @@
       class="image"
     />
     <div class="tooltip">
-      Fredi Juarez, 51<br>
-      After back-to-back hurricanes destroyed his home in Honduras in 2020,<br>
-       Fredi Juarez and his girlfriend joined the millions of people who fled<br>
-        due to rising seas, drought, searing temperatures and other <br>
-        climate catastrophes. Juarez resides in a tent at a migrant 
-        <br> shelter in the border city of Tijuana, Mexico.
+      <b>Fredi Juarez, 51<br></b>
+      Fredi left Honduras with his girlfriend in 2020 after <br>
+      <b>back-to-back hurricanes destroyed his home.</b><br>
+      He now resides in a tent at the migrant shelter.
+
 
       
     </div>
@@ -356,14 +344,21 @@
 
 <style>
 .image-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
+  justify-content: space-between; */
+  display: flex;
   justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%; /* Set the width of the container to 100% */
+  height: auto; 
 }
 
   .image {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
   }
 
   .tooltip-container {
@@ -374,13 +369,16 @@
 
 
   .tooltip {
+    font-family: New York Times, Georgia, Times New Roman;
     visibility: hidden;
     position: absolute;
+    padding: 10px 20px;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: black;
-    color: white;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -399,5 +397,25 @@
   .tooltip-container:hover .image {
     opacity: 1;
   }
+
+  p{
+  max-width:500px;
+  word-wrap:break-word;
+  line-height: 1.56;
+  font-size: 16px;
+  
+}
+
+.container {
+   margin: 0 auto;
+  max-width: 500px;
+  text-align: left;
+  }
+
+.title {
+   /* display: flex; */
+   text-align: center;
+   font-family: New York Times, Georgia, Times New Roman;
+}
 
 </style>

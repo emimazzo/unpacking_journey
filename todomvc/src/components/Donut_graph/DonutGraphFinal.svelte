@@ -66,8 +66,8 @@
 <main>
     
 
-    <div style ="display:block; margin-bottom:30px;">
-        <button style="display:inline-block" class="button-4" on:click={() => (toggle = 1)}>Entire Central America</button>
+    <div style ="display:block; margin-bottom:20px;'New York Times', Georgia, 'Times New Roman';">
+        <button style="display:inline-block" class="button-4" on:click={() => (toggle = 1)}>All Northern Triangle</button>
         <button style="display:inline-block" class="button-4" on:click={() => (toggle = 2)}>Honduras</button>
         <button style="display:inline-block" class="button-4" on:click={() => (toggle = 3)}>Guatamela</button>
         <button style="display:inline-block" class="button-4" on:click={() => (toggle = 4)}>El Salvador</button>
@@ -126,7 +126,7 @@
         line-height: 2;
         font-size: 24px;
         color: var(--color-text);
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
 
