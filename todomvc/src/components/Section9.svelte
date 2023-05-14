@@ -26,7 +26,7 @@
 <p>
   Even though you just learned about a particular story that matched your original choices,
    many more stories still remain to be told. 
-  Take a moment to hover over the images below and discover a glimpse of the diverse experiences 
+  Take a moment to <b>hover over the images below </b>and discover a glimpse of the diverse experiences 
   of other migrants that you might have encountered if you had made different choices. 
   Each of these stories has its own unique perspective, challenges, and triumphs, offering 
   an insightful view of the migrant experience.

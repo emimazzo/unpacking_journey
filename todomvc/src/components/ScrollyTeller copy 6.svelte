@@ -112,6 +112,30 @@
   //   "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Guatemala_F_10.jpg"
   ]
 
+  // let background_url;
+  // $: {
+  //   background_url = section_urls[index];
+  // }
+
+//   const sectionHeights = [
+//   '30vh', // Section 1
+//   '20vh', // Section 2
+//   '60vh', // Section 3,
+//   '75vh', // Section 4
+//   '85vh', // Section 5
+//   '60vh', // Section 6,
+//   '50vh', // Section 7
+//   '50vh', // Section 8
+//   '65vh', // Section 9,
+//   '30vh', // Section 10
+//   '80vh', // Section 11
+//   '80vh', // Section 12
+//   '80vh', // Section 13
+//   '20vh', // Section 14
+//   '80vh', // Section 15
+//   '80vh', // Section 16
+//   '30vh', // Section 17
+// ];
 
 
 const sectionHeights = [
@@ -124,7 +148,6 @@ const sectionHeights = [
   '95vh', // Section 7
   '95vh', // Section 8
   '95vh', // Section 9,
-  '95vh', // Section 10
   '95vh', // Section 10
   '95vh', // Section 11
   '95vh', // Section 12
@@ -140,29 +163,6 @@ const sectionWidths = ['5000px', '1200px','1200px','1200px','1200px',
 '1200px','1200px','1200px','1200px','1200px','1200px','1200px',
 '1200px','1200px','1200px','1200px','1200px','1200px']
 
-// function refreshPage() {
-//   // Refresh the page
-//   window.location.reload();
-
-//   // Scroll to the top of the page after a short delay
-//   setTimeout(function() {
-//     window.scrollTo({ top: 0, behavior: 'smooth' });
-//   }, 100); // delay in milliseconds
-//   const topElement = document.querySelector('#up');
-//   if (topElement) {
-//     topElement.scrollIntoView({ behavior: 'smooth' });
-//   }
-// }
-
-function refreshPage() {
-  // Refresh the page
-  window.location.reload();
-
-  // Scroll to the top of the page after a short delay
-  setTimeout(function() {
-    window.scrollTo(0, 0);
-  }, 10000);
-}
 
 </script>
 
@@ -206,14 +206,9 @@ function refreshPage() {
       style="background-image: url({"https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Jessica_Orellana_Honduras_F_30_Slide_2.jpg"}); " >
   </div>
 
-      {:else if index > 18}
+      {:else if index > 17}
       <div class="background"
-      style="background-image: url({"https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Jessica_Orellana_Honduras_F_30_Slide_2.jpg"}); " >
-  </div>
-
-      {:else if index >= 9 && index <= 9.7}
-      <div class="background"
-      style="background-image: url({"https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Jessica_Orellana_Honduras_F_30_Slide_2.jpg"}); " >
+      style="background-color: blue); " > 
   </div>
 
 
@@ -247,7 +242,7 @@ function refreshPage() {
 
     
     <div>
-    {#each Array.from({ length: 19}, (_, i) => i + 1) as section}
+    {#each Array.from({ length: 18}, (_, i) => i + 1) as section}
     <section style="height: {sectionHeights[section - 1]}; font-family: 'New York Times', Georgia, 'Times New Roman';">
       {#if section == 1}
         <Section1 style="width: 80%;"/>
@@ -340,12 +335,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-
         {:else if section === 10}
-        <div style="background-image: url('https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/Jessica_Orellana_Honduras_F_30_Slide_2.jpg');">
-      </div>
-
-        {:else if section === 11}
           <Section9b /> 
           <br>
           <div style="text-align: center;">
@@ -355,7 +345,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 12}
+        {:else if section === 11}
           <Section10 /> 
           <br> <br><br> <br> <br> <br> <br> <br> <br> <br><br> <br><br> <br>
           <div style="text-align: center;">
@@ -365,7 +355,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 13}
+        {:else if section === 12}
           <Section11 /> 
           <br>
           <div style="text-align: center;">
@@ -375,7 +365,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 14}
+        {:else if section === 13}
           <Section11b/> 
           <br>
           <div style="text-align: center;">
@@ -385,9 +375,9 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 15}
+        {:else if section === 14}
           <Section12 /> 
-        {:else if section === 16}
+        {:else if section === 15}
           <Section13 /> 
           <br>
           <div style="text-align: center;">
@@ -397,7 +387,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 17}
+        {:else if section === 16}
           <Section14 /> 
           <br>
           <div style="text-align: center;">
@@ -407,7 +397,7 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 18}
+        {:else if section === 17}
         
           <Section15 /> 
           <br>
@@ -418,10 +408,8 @@ function refreshPage() {
             </div>
           </html>
         </div>
-        {:else if section === 19}
+        {:else if section === 18}
           <Section16 /> 
-          <button on:click={refreshPage} >Refresh and scroll to top</button>
-          <button onclick="window.location.href='https://emimazzo.github.io/unpacking_journey'">Refresh</button>
           <p> {index}</p>
         {:else}
           This is section {section}.
@@ -434,8 +422,7 @@ function refreshPage() {
     style="background-image: url({section_urls2_hond[index]})"
     ></div>  -->
     {#if index < 0.1 }
-    {:else if index > 18 }
-    {:else if index >= 9 && index <= 9.7}
+    {:else if index > 17 }
     {:else if $country === 'Guatemala'}
           <div class="sideground"
               style="background-image: url({section_urls2_guat[index]})" >
@@ -468,7 +455,7 @@ function refreshPage() {
       width: 100%;
       height: 100vh;
       /* position: relative; */
-      outline: green solid 3px;
+      /* outline: green solid 3px; */
     }
 
     .sideground{
@@ -501,7 +488,7 @@ function refreshPage() {
       height: 80vh;
       /* background-color: rgba(0, 0, 0, 0.2); 20% opaque */
       /* color: white; */
-      outline: magenta solid 3px;
+      /* outline: magenta solid 3px; */
       text-align: left;
       max-width: 1200px; 
       /* max-width: 5000px; */

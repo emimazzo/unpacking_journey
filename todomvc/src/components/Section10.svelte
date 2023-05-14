@@ -17,7 +17,7 @@
      To gain a better understanding 
      of the scale of this phenomenon, you can explore the interactive graph below, which 
      provides information on the number of people who left each country in 2020, and bigger circles represent a larger number of people leaving the countries.
-     Simply hover over each point for more details.</p>
+    <b>Simply hover over each bubble </b> for more details.</p>
 
     </div>
 

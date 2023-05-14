@@ -1,5 +1,6 @@
 <script>
-    import SecondPieChart from "./SecondPieChart_new.svelte";
+    // import SecondPieChart from "./SecondPieChart_new.svelte";
+    import SecondPieChart from "./SecondPieChart/SecondPieChart_last.svelte";
     // import { country } from './store.js'
 
     // $: console.log('section4', $country)
@@ -18,7 +19,7 @@
       Explore the pie chart below to discover the various methods the surveyed individuals utilized in 
       their pursuit of a better life. 
       <br>
-      Hover over each section of the pie chart to learn more about their different means of migration.</p>
+    <b>Hover over each section </b> of the pie chart to learn more about their different means of migration.</p>
     </div>
   <div style="display: flex; justify-content: center;">
     <div style="text-align: center;">

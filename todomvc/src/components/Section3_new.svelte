@@ -164,7 +164,7 @@
   migrants flee. All three countries, which are often referred as the Northern
   Triangle, are some of the poorest in the Western Hemisphere, with high rates
   of violence and conflict driving emigration.
-  <br>Hover over the countries in the map to learn more about each of the three countries and,
+  <br> <b> Hover over the countries in the map </b> to learn more about each of the three countries and,
   when you are ready, choose one of them as the country of origin for the story.
 </p>
 </div>

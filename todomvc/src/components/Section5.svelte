@@ -20,9 +20,9 @@
   While we recognize the limitations of framing gender solely in the binary terms of male and female,
    obtaining data on other genders can be challenging. 
    <br>
-   You can hover over the graph to view the number
+   You can <b> hover over the graph </b> to view the number
     of people who identify as male or female from the country you selected and have decided to migrate. 
-    Additionally, you can click on the button to switch between viewing migrants who are leaving solely 
+    Additionally, you can <b> click on the button </b> to switch between viewing migrants who are leaving solely 
     for the United States and those who are departing for any destination worldwide.</p>
 
   </div>

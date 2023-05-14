@@ -13,11 +13,14 @@
 	export let columns = 0;
   
 	$: color = scaleOrdinal().domain(values).range(ramp);
+
   </script>
   
   <style>
 	.legend--container {
-		text-align:center;
+		font-family:  nyt-franklin,arial,helvetica,sans-serif;
+
+		text-align:left;
 	display:inline-block;
 	  width: var(--width, auto);
 	  height: var(--height, auto);
@@ -38,7 +41,6 @@
 	  fill: var(--gray-80, #333);
 	  margin: 0;
 	  font-family: New York Times, Georgia, Times New Roman;
-
 
 	}
   

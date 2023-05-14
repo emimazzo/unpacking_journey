@@ -12,7 +12,7 @@
 </div>
 
 <div class="container" >
-<p> In the box below, please type one word that best describes your current views about migrants. <br>
+<p> In the box below, please <b> type one word </b> that best describes your current views about migrants. <br>
   Please note that your response will remain anonymous and no one will be able to associate it with you.
 </p>
 </div>

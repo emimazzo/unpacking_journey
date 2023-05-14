@@ -5,7 +5,7 @@
 	let yoff=22;
 	let xoff=10;
 
-	let width = 700;
+	let width = 950;
 	let height = 2200;
 
 	let margin = {top: 10, right: 10, bottom: 100, left: 60};
@@ -108,24 +108,24 @@
 		{/each}
 
 		<rect class="bar"
-		x={xScale(d.Region)}
-		y={yScale(d.NumberDead)}
-		width={xScale.bandwidth()}
-		height={yScale(0) - yScale(d.NumberDead)}
-		fill-opacity=0 
-		on:mouseover={(event) => { hovered = 1;
+			x={xScale(d.Region)}
+			y={yScale(d.NumberDead)}
+			width={xScale.bandwidth()}
+			height={yScale(0) - yScale(d.NumberDead)}
+			fill-opacity=0 
+			on:mouseover={(event) => { hovered = 1;
 			recorded_mouse_position = {
-				x: event.pageX,
-				y: event.pageY
-			};
+							x: event.pageX,
+							y: event.pageY
+						};
 			console.log(recorded_mouse_position);
-	
+
 			hover_NumberDead=d.NumberDead;
 			hover_Region=d.Region; }}
-		on:mouseout={(event) => { hovered = -1; 
-			hover_NumberDead="";
-			hover_Region=""; }}
-	/>
+			on:mouseout={(event) => { hovered = -1; 
+				hover_NumberDead="";
+				hover_Region=""; }}
+/>
 
 	{/each}
 

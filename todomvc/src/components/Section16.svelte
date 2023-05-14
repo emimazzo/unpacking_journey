@@ -18,6 +18,10 @@
     text-align: left;
     }
 
+    .ending{
+        font-size: 10px;
+    }
+
     </style>
 
 <div class="title" >
@@ -37,4 +41,25 @@
        and struggles of being a migrant, 
     and helped you empathize with their experiences.</p>
 
+</div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class='ending'>
+<p><b>Team Members:</b> Georine Y Pierre, Dominic Lim Co, & Emilia Mazzolenis </p>
+<br>
+<p>This data visualization was made with data contributed by the <b>United Nations World Food Programme (WFP). </b></p>
 </div>

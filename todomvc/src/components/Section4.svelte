@@ -14,7 +14,7 @@
          there is a diverse range of age groups among these immigrants. In 2020, the number of immigrants in the US fell 
          into three age ranges. 
          <br> <br>
-         Hover over the bars to learn more about the number of migrants in each age range.
+        <b> Hover over the bars</b> to learn more about the number of migrants in each age range.
         <br> <br> </p>
     </div>
 

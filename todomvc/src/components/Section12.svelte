@@ -14,15 +14,16 @@
     thousands of lives are lost in the attempt. Those who attempt to migrate 
     through illegal channels face even greater risks, with families torn apart 
     and dreams shattered by the tragedy of lost lives.
+    <br><br>
 
-    Hover over each bar below to reveal the heartbreaking toll of lives lost
-     in different regions of the world,
+   <b>Scroll down and hover over each bar </b> below to reveal the heartbreaking toll of migrant lives lost
+     in different regions of the world in 2019,
      a stark reminder of the human cost of forced displacement and migration. 
 </p>
 </div>
 
 <div >
-    <!-- <DeathGraph /> -->
+    <DeathGraph />
 </div>
 
 <style>

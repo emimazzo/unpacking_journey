@@ -11,8 +11,10 @@
     houses in search for a better life. A recent survey of thousands 
     of households in Guatemala, Honduras, and El Salvador revealed some 
     of the most commonly reported reasons why people flee their home countries.
-     To explore these reasons in more detail, simply hover over the sections 
-     of the following donut chart.</p>
+    <br>
+     To explore these reasons in more detail, simply <b> hover over the sections </b>
+     of the following donut chart; you can also <b>click on the different buttons </b>to see 
+    the breakdown by country.</p>
 </div>
 
 
