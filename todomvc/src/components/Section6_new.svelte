@@ -167,98 +167,149 @@
 <style>
 .image-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%; /* Set the width of the container to 100% */
+  height: auto; 
 }
 
   .image1 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image2 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image3 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image4 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image5 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image6 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
   }
 
   .image7 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image8 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image9 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image10 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image11 {
     width: 112.5px;
-    height: 112.5px;
+    height: 112.5px;    
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image12 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image13 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image14 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image15 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image16 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image17 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   .image18 {
     width: 112.5px;
     height: 112.5px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+
   }
 
   img {

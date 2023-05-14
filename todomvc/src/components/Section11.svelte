@@ -2,6 +2,7 @@
     import DonutGraph from "./Donut_graph/DonutGraphFinal.svelte";
   </script>
 
+<br><br><br>
 <div class="title" >
 <h1> The Whys Behind the Migration: A Holistic View</h1>
 </div>

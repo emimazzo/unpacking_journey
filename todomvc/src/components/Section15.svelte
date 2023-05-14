@@ -2,7 +2,7 @@
 import WordCloud2 from "./WordCloud2.svelte";
 </script>
 
-
+<br><br><br><br><br>
 
 <div class="container" >
 <p> And compare it to the last response from all participants!

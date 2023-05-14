@@ -1,5 +1,5 @@
 <script>
-    import DeathGraph from "./DeathGraph/DeathGraph.svelte";
+    import DeathGraph from "./DeathGraph/DeathGraph2.svelte";
   </script>
 
 
@@ -17,7 +17,7 @@
     <br><br>
 
    <b>Scroll down and hover over each bar </b> below to reveal the heartbreaking toll of migrant lives lost
-     in different regions of the world in 2019,
+     in different regions of the world in 2021,
      a stark reminder of the human cost of forced displacement and migration. 
 </p>
 </div>

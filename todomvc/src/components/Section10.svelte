@@ -3,7 +3,7 @@
   </script>
 
 <div class="title" >
-<h1> Beyond Borders: Understanding Contemporary Migration Trends</h1>
+<h1> Beyond Borders: Understanding Contemporary Migration</h1>
 </div>
 
 
