@@ -1,5 +1,5 @@
 <script>
-    import DeathGraph from "./DeathGraph/DeathGraph2.svelte";
+    import DeathGraph from "./DeathGraph/DeathGraph_final.svelte";
   </script>
 
 

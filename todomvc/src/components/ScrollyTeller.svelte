@@ -44,7 +44,7 @@
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
   ]
@@ -66,7 +66,7 @@
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
 
@@ -89,7 +89,7 @@
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
 
