@@ -2,7 +2,7 @@
   import { response1 } from "./store.js";
   let response = "";
   function myFunction() {
-    response1.set('good fair ok bad terrible  good ' + ' ' + response);
+    response1.set('good challenge good neutral unsure positive ' + ' ' + response);
     document.getElementById("demo").innerHTML = "Thank you for your answer";
     console.log("CURRENT VALUE OF RESPONSE1", $response1);
   }

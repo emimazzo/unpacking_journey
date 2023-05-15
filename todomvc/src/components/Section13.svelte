@@ -2,7 +2,7 @@
   import { response2 } from "./store.js";
   let response_final= "";
   function myFunction10() {
-    response2.set('love ok great awesome woho perfect ok ok  ' + ' ' + response_final);
+    response2.set('love sad understanding aware inspiring complex  ' + ' ' + response_final);
     document.getElementById("demo2").innerHTML = "Thank you for your answer";
     console.log("CURRENT VALUE OF RESPONSE2", $response2);
   }

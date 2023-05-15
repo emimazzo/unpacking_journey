@@ -30,7 +30,7 @@
 // REACTIVE IMAGES FOR SIDEGROUND
   let section_urls_hond = [
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg", //change for a world one
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Honduras_square.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Honduras_square.jpg",
@@ -38,39 +38,37 @@
   "",
     "", 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Honduras_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg"//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
   ]
 
 
 
   let section_urls_guat = [
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg", //change for a world one
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Guatemala_square.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Guatemala_square.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Guatemala_square.jpg",
 "", "", 
 "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/Guatemala_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg"//change for one with dot 
+"https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
 
   ]
 
@@ -78,48 +76,25 @@
 
   let section_urls_salv = [
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg", //change for a world one
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
     "", "", 
     "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg"//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America_icon.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World_long.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/America.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
+    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/World.jpg",//change for one with dot 
 
   ]
 
-
-  let section_urls_salv2 = [
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg", //change for a world one
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
-    " ", "",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/final_icons/El_Salvador_square.jpg",
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/new_v.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg",//change for one with dot 
-    "https://github.com/emimazzo/Finding-Refuge/raw/main/images_stories/icons/0_Globe.jpg"//change for one with dot 
-
-  ]
 
 
 
@@ -472,7 +447,7 @@ $: {
             
           {:else if $country === 'El Salvador'}
               <div class="sideground"
-                  style="background-image: url({section_urls_salv2[index]}); background-size: contain" >
+                  style="background-image: url({section_urls_salv[index]}); background-size: contain" >
               </div>
       
   
